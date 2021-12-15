@@ -1,0 +1,23 @@
+{
+  "name": "fe-challenge-master",
+  "version": "1.0.0",
+  "description": "![Desktop Preview](./design/desktop.png)",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saralandis/thesis_fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saralandis/thesis_fe/issues"
+  },
+  "homepage": "https://github.com/saralandis/thesis_fe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
