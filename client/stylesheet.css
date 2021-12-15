@@ -1,0 +1,22 @@
+body {
+  background-image: url('/background.png');
+  background-size: cover;
+  font-family:Arial, Helvetica, sans-serif;
+  color: azure;
+}
+
+/* Header and Navigation Bar */
+
+
+.topNav a {
+  color: white;
+  text-decoration: none;
+}
+
+.topNav a:hover{
+  background-color: grey;
+}
+
+/* Center Page and Form */
+
+/* Footer and Navigation Bar */
