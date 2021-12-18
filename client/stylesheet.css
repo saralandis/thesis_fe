@@ -1,22 +1,96 @@
 body {
+  display: grid;
   background-image: url('/background.png');
   background-size: cover;
   font-family:Arial, Helvetica, sans-serif;
-  color: azure;
 }
 
-/* Header and Navigation Bar */
+
+.topContainer, .bottomContainer, .middleContainer, .topNav, .bottomNav{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.middleContainer {
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.bottomContainer {
+  margin-top: auto;
+}
 
 
-.topNav a {
+.quoteContainer, #signUpForm{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+
+#stampLogo {
   color: white;
   text-decoration: none;
 }
 
-.topNav a:hover{
-  background-color: grey;
+
+.topNav a, .bottomNav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
-/* Center Page and Form */
+.topNav a:hover, .bottomNav a:hover, #disclaimer a:hover{
+  text-shadow: 0 0 5px rgb(253, 252, 252);
+}
 
-/* Footer and Navigation Bar */
+#menuIcon {
+  color: white;
+  text-decoration: none;
+}
+
+.signUpForm {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.signUpForm, .signUpForm input::placeholder{
+  color: white;
+}
+
+.signUpForm input {
+  color: white;
+  background-color: transparent;
+}
+
+.signUpForm i {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+#signUpButton {
+  background-color: #4daadd;
+}
+
+#disclaimer {
+  font-size: small;
+  color: grey;
+}
+
+#disclaimer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+#motivQuote, #slogan {
+  color: white;
+}
+
+#copyright {
+  color: white;
+  font-style: small;
+}
+
+
